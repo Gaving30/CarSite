@@ -1,0 +1,242 @@
+#lightbox
+{
+	position:fixed; /* keeps the lightbox window in the current viewport */
+	top:0; 
+	left:0; 
+	width:100%; 
+	height:100%; 
+	background:url(overlay.png) repeat; 
+	text-align:center;
+}
+
+#lightbox p
+{
+	text-align:right; 
+	color:#fff; 
+	margin-right:20px; 
+	font-size:12px; 
+}
+
+#lightbox img
+{
+	box-shadow:0 0 25px #111;
+	-webkit-box-shadow:0 0 25px #111;
+	-moz-box-shadow:0 0 25px #111;
+	max-width:940px;
+	width: 750px;
+	height: 500px;
+	margin-top: 80px;
+}
+
+.showPics
+{
+	width: 500px;
+	height: 110px;
+}
+
+#showRight
+{
+	float: left;
+	width: 45%;
+}
+
+#showLeft
+{
+	margin-left: 25px;
+	float: left;
+	width: 45%;
+}
+
+.carPictureLeft
+{
+	margin-left: 25px;
+	margin-right: 25px;
+	width: 400px;
+	height: 250px;
+	float: left;
+	clear: bottom;
+	border: 1px solid #333;
+	box-shadow: 10px 10px 5px #888;
+	moz-box-shadow: 10px 10px 5px #888;
+	webkit-box-shadow: 10px 10px 5px #888;
+}
+
+.carPictureRight
+{
+	margin-right: 25px;
+	margin-left: 25px;
+	width: 400px;
+	height: 250px;
+	float: right;
+	clear: bottom;
+	border: 1px solid #333;
+	box-shadow: 10px 10px 5px #888;
+	moz-box-shadow: 10px 10px 5px #888;
+	webkit-box-shadow: 10px 10px 5px #888;
+}
+
+#printButton
+{
+	color: Black;
+	width: 80px;
+}
+
+#nextShow
+{
+	color: Red;
+}
+
+#dateTime
+{
+	font-weight: bold;
+}
+
+a:visited
+{
+	color: Black;
+}
+
+#clear
+{
+	clear: both;
+	position: relative;
+}
+
+#buttonMenu
+{
+	margin: 0;
+}
+
+.carHeading
+{
+	text-align: center;
+	color: Blue;
+}
+
+#mainContent
+{
+	width: 100%;
+	color: #333;
+	border: 2px solid black;
+	font-size: 14px;
+	background-color: #C5E3BF;
+	clear: both;
+}
+
+#header
+{
+	font-family: Bradley Hand ITC;
+	font-size: 28px;
+
+}
+
+#header h1
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#body
+{
+	border: 2px solid black;
+}
+
+#footer
+{
+	clear: both;
+	margin: 0px;
+	border: 2px solid black;
+	text-align: center;
+	padding 15px;
+}
+
+#content
+{
+	color: black;
+	float: left;
+	font-size: 18px;
+	width: 97%;
+	text-align: justify;
+	margin-left: 12px;
+	margin-bottom: 25px;
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-box-shadow:0 0 5px #ccc;
+	-webkit-box-shadow:0 0 5px #ccc;
+}
+
+#info
+{
+	position: realtive;
+	text-align: justify;
+	width: 90%;
+	margin-left: 50px;
+}
+
+.buttons
+{
+    list-style-type: none;
+	font-family: Bradley Hand ITC;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.buttons li
+{
+	float: left;
+	padding:0em;
+	padding: 10px 30px;
+}
+
+.buttons li a
+{
+   	text-decoration: none;
+	font-size: 30px;
+
+}
+
+.buttons li a:hover
+{
+	color: #fff;
+	font-size: 30px;
+}
+
+p
+{
+	width: 100%;
+	font-family: Bell MT;
+	font-size: 20px;
+	clear: both;
+}
+
+h2
+{
+	margin: 0 0 .5em 0;
+	font-family: Bradley Hand ITC;
+	font-size: 30px;
+}
+
+.pageHeading
+{
+	text-align: center;
+}
+
+.indexPicture
+{
+	width: 900px;
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contactUs
+{
+	margin-left: 140px;
+}
+
+#map
+{
+	float: right;
+}

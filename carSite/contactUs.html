@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>
+			Evolution of Cars
+		</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="JavaScript.js">
+		</script>
+	</head>
+	<body onload="init()">
+		<div id="mainContent">
+			<div id="header">
+				<h1>
+					Evolution Of Cars
+				</h1>
+			</div>
+			<div id="buttonMenu">
+				<ul class="buttons">
+					<li><a href="index.html">Home </a></li>
+					<li><a href="past.html">Past </a></li>
+					<li><a href="present.html">Present </a></li>
+					<li><a href="future.html">Future </a></li>
+					<li><a href="show.html">Up-coming Shows</a></li>
+					<li><a href="contactUs.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div id="clear">
+			</div>
+			<div id="content">
+				<hr/>
+				<h2 class="pageHeading">
+					Contact Us
+				</h2>
+				<p>
+					If you have any queries in relation to our site or any of the cars featured on our site, Or if you have any cars that you would like
+					featured on our site or at one of our shows, just fill in the below form with your details and we will contact you.
+				</p>
+				<form id="contactUs" method="post" action="mailto:gaving30@gmail.com" onsubmit="return validateForm(this);">
+				<table>
+					<tr>
+						<td>First Name:</td>
+						<td><input name="fname" type = "text" /></td>
+					</tr>
+					<tr>
+						<td>Surname:</td>
+						<td><input name="sname" type="text" /></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input name="eMail" type = "text" /></td>
+					</tr>
+
+					<tr>
+						<td><label for="nLtr">Subscribe to Newsletter</label></td>
+						<td><input type="checkbox" name="newsLtr" value="yes" id="nLtr" /></td>
+					</tr>
+					<tr>
+						<td>Choose Category</td>
+						<td>
+							Past:<input type="radio" name="cat" value="past" />
+							Present:<input type="radio" name="cat" value="present" />
+							Future:<input type="radio" name="cat" value="future" />
+						</td>
+					</tr>
+					<tr>
+						<td>Query:</td>
+							<td><select name="reason">
+								<optgroup label="Reason:">
+									<option value = "unspec">Unspecified/ Other</option>
+									<option value = "show">Enter a car in show</option>
+									<option value = "car">Query Car on site</option>
+									<option value = "member">Become a member of TEoC</option>
+									<option value = "unsub">Unsubscribe from Newsletter</option>
+								</optgroup>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<fieldset>
+					<legend><b>Additional Comments:</b></legend>
+					<textarea rows="10" cols="50" name="comments"></textarea>
+					<br/>
+					<input type="submit" value="Send" />
+					<input type="reset" />
+				</fieldset>
+			</form>
+			</div>
+			<div id="footer" >
+				This Page Loaded at: <label id="timeDate"></label>
+			</div>
+		</div>
+	</body>
+</html>
