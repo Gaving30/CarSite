@@ -1,3 +1,19 @@
+/* TABLET MODE*/
+@media only screen and (max-width: 750px) {
+    #mainContent
+	{
+        background-color: lightblue;
+    }
+}
+
+#header
+{
+	font-family: Bradley Hand ITC;
+	font-size: 28px;
+
+}
+
+
 #lightbox
 {
 	position:fixed; /* keeps the lightbox window in the current viewport */
@@ -119,20 +135,15 @@ a:visited
 	color: #333;
 	border: 2px solid black;
 	font-size: 14px;
-	background-color: #C5E3BF;
+	background-color: #BECAE4  ;
 	clear: both;
 }
 
-#header
-{
-	font-family: Bradley Hand ITC;
-	font-size: 28px;
 
-}
-
-#header h1
+#header h2
 {
-	padding: 0;
+	font-size: 2.6vw;
+	padding: 10px;
 	margin: 0;
 	text-align: center;
 }
@@ -187,13 +198,14 @@ a:visited
 	float: left;
 	padding:0em;
 	padding: 10px 30px;
+	margin-left: 100px;
 }
 
 .buttons li a
 {
    	text-decoration: none;
 	font-size: 30px;
-
+	text-align: center;
 }
 
 .buttons li a:hover
