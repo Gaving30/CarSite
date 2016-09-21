@@ -1,18 +1,3 @@
-/* TABLET MODE*/
-@media only screen and (max-width: 750px) {
-    #mainContent
-	{
-        background-color: lightblue;
-    }
-}
-
-#header
-{
-	font-family: Bradley Hand ITC;
-	font-size: 28px;
-
-}
-
 
 #lightbox
 {
@@ -252,3 +237,36 @@ h2
 {
 	float: right;
 }
+
+/* START TABLET MODE*/
+
+@media only screen and (max-width: 1000px) {
+    #mainContent
+	{
+        background-color: Yellow;
+    }
+
+	#header h2
+	{
+		font-size: 4.5vw;
+	}
+}
+
+/* END TABLET MODE*/
+
+/* START MOBILE MODE*/
+
+@media only screen and (max-width: 400px) {
+    #mainContent
+	{
+        background-color: Red;
+    }
+
+	#header h2
+	{
+		font-size: 5.5vw;
+	}
+}
+
+/* END MOBILE MODE*/
+
