@@ -191,6 +191,7 @@ a:visited
    	text-decoration: none;
 	font-size: 30px;
 	text-align: center;
+	background-color:  Orange;
 }
 
 .buttons li a:hover
@@ -250,13 +251,22 @@ h2
 	{
 		font-size: 4.5vw;
 	}
+	
+	.buttons li a
+	{
+		text-decoration: none;
+		font-size: 4.5vw;
+		text-align: center;
+		background-color:  Pink;
+	}
+
 }
 
 /* END TABLET MODE*/
 
 /* START MOBILE MODE*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     #mainContent
 	{
         background-color: Red;
@@ -266,6 +276,15 @@ h2
 	{
 		font-size: 5.5vw;
 	}
+	
+	.buttons li a
+	{
+		text-decoration: none;
+		font-size: 5.5vw;
+		text-align: center;
+		background-color:  Green;
+	}
+	
 }
 
 /* END MOBILE MODE*/
